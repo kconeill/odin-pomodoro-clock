@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type"text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div id="pomodoro" class="container">
+			<h1 class="text-center"><span id="title">Pomodoro Clock</span></h1>
+			<div id="set-times" class="container">
+				<div class="row">
+					<div class="col-xs-6 text-center">
+						<h3>Session</h3>
+					</div>
+					<div class="col-xs-6 text-center">
+						<h3>Break</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div id="dec-pom" class="col-xs-2 btn block-center minus">
+						down
+					</div>
+					<div id="session" class="col-xs-2 block-center time">
+						<span id="test-pom"></span>
+					</div>
+						<div id="inc-pom" class="col-xs-2 btn block-center plus">
+						up
+					</div>
+					<div id="dec-break" class="col-xs-2 btn block-center minus">
+						down
+					</div>
+					<div id="break" class="col-xs-2 block-center time">
+						<span id="test-break"></span>
+					</div>
+						<div id="inc-break" class="col-xs-2 btn block-center plus">
+						up
+					</div>
+				</div>
+			</div>
+			<div id="play-pomodoro" class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<div id="start" class="btn btn-block" data-toggle="tooltip" title="Start clock">
+							play
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div id="reset" class="btn btn-block" data-toggle="tooltip" title="Stop clock and Reset Session and Break to 25 and 5">
+							reset
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<h2 id="activity"></h2>
+					</div>
+				</div>
+				<div class="row">
+					<div id="test-clock" class="col-xs-12 text-center">
+						<span id="timer-min"></span>
+						:
+						<span id="timer-sec"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<div id="pause" class="btn btn-block" data-toddle="tooltip" title="Pause clock">
+							pause
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div id="stop" class="btn btn-block" data-toggle="tooltip" title="Stop clock">
+							stop
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+				integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+				crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

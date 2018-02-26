@@ -1,0 +1,62 @@
+body {
+  background-color: gray;
+  font-family: Arial;
+}
+
+#pomodoro {
+  margin-top: 10%;
+}
+
+
+h2, h3 {
+  font-weight: bold;
+}
+
+h1 #title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#set-times {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+#set-times, #play-pomodoro {
+  color: white;
+  background-color: black;
+  max-width: 450px;
+}
+
+.time {
+  font-size: 1.5em;
+}
+
+#play-pomodoro {
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+#activity {
+  margin-top: -10px;
+}
+
+#test-clock {
+  font-size: 4em;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
